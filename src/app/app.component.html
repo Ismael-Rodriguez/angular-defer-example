@@ -195,15 +195,7 @@
       <br />
 
     </div>
-    @defer {
-    <app-defer-loading />
-    } @loading(minimum 1000) {
-      <img
-        src="../assets/spinner.gif"
-        height="230"
-        alt="bugs"
-      >
-    }
+    <h1>DEFER LOADING</h1>
   </div>
 
   <div class="viewport-block">
@@ -262,24 +254,7 @@
 
     </div>
 
-    @defer(on idle){
-      <p>Todo ha ido genial!</p>
-      <img src="../assets/awesome.gif" alt="">
-    } @placeholder(minimum 1000) {
-        <img
-        src="../assets/placeholder.gif"
-        height="230"
-        alt="machine"
-      >
-    } @loading(minimum 1000) {
-      <img
-        src="../assets/spinner.gif"
-        height="230"
-        alt="bugs"
-      >
-    } @error {
-      <p class="text-red-500">Algo ha ido mal<p>
-    }
+    <h1>FULL EXAMPLE</h1>
   </div>
 </div>
 
